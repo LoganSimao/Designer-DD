@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400;500;600;700&family=Lexend+Zetta:ital,wght@0,400;0,600;0,700;1,400&family=Mulish:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
+}
+
+:root{
+    --font1: "Bebas Neue", Serif;
+    --font2: "Lexend Zetta", Serif;
+    --font3: "Mulish", Serif;
 }
 
 header{
@@ -27,6 +35,137 @@ header{
 .banner-layout{
     position: absolute;
     top: 30rem;
-    left: 50rem;
+    left: 40rem;
 
+}
+
+.banner-layout h1{
+    font-family: var(--font1);
+    font-size: 5.5rem;
+    color: #000;
+}
+
+.banner-layout p{
+    font-family: var(--font2);
+    font-size: 2rem;
+    color: #19E7FF;
+    position: relative;
+    left:25rem;
+}
+
+.primeira-session{
+    height: 100vh;
+}
+.card-header{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    margin-top: 4rem;
+}
+
+.card-header h1{
+    font-family: var(--font2);
+    font-size: 2.5rem;
+    color: #19E7FF;
+    border-top: solid 0.2rem;
+    border-color: #FFE319;
+    margin-top: 2rem;
+}
+.geral-card-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.cards{
+    width: 30rem;
+    height: 50rem;
+    position: relative;
+    background-color: #000;
+}
+
+.carding-img-wrapper{
+    width: 100%;
+    height: 100%;
+}
+.carding-img-wrapper img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: .2rem;
+}
+.cards:hover .carding-img-wrapper{
+    opacity: 0.6;
+    visibility: visible;
+    transition: all .5s;
+}
+/*não utilizada a parte do front-card por hora*/
+.front-card{
+    position: absolute;
+    bottom: 0;
+    visibility: hidden;
+    text-shadow: 0.3rem 0.3rem 0.6rem rgba(0,0,0,0.6);
+}
+.front-card h1{
+}
+
+.back-card{
+    position: absolute;
+    bottom: 0;
+    padding: 3rem;
+    text-shadow: 0.3rem 0.3rem 0.6rem rgba(0,0,0,0.6);
+}
+
+.back-card h1{
+    color: #fff;
+    font-family: var(--font1);
+    font-size: 4.5rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: solid .2rem;
+    border-color: #FFE319;
+}
+.back-card h2{
+    color:#F08;
+    font-family: var(--font2);
+    font-size: 1.4rem;
+    padding-bottom: 3rem;
+}
+/* 
+.back-card p{
+    color: #19E7FF;
+    font-family: var(--font3);
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+}
+*/
+
+.btn {
+    font-size: 1rem;
+    font-family: var(--font3);
+    color: #fff;
+    background-color:#19E7FF;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: .2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    width: 10rem;
+    text-shadow: 0.3rem 0.1rem 0.6rem rgba(0,0,0,0.6);
+    box-shadow: 0 0.2rem 0.3rem rgba(0,0,0,0.6);
+}
+
+footer{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-content p{
+    font-family: var(--font3);
+    color: #a7a7a7;
+    font-size: 1.1rem;
 }
