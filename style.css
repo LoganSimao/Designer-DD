@@ -258,3 +258,71 @@ footer{
     left: 24rem;
     padding-bottom: 2rem;
 }
+
+/*pagina 3*/
+
+.quem-somos{
+    display: flex;
+    position: relative;
+}
+
+.quem-somos-header{
+    width: 100%;
+    height: 100vh;
+}
+.quem-somos-header img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.banner-somos{
+    position: absolute;
+    overflow: hidden;
+    width: 70%;
+    height: 65%;
+    top: 30%;
+    left: 20%;
+}
+
+.banner-somos h1{
+    border-top: solid 2px;
+    border-color: #FFE319;
+    font-family: var(--font1);
+    font-size: 6rem;
+}
+
+.banner-somos h2{
+    font-family: var(--font2);
+    color: #19E7FF;
+    text-shadow: 0.1rem 0.2rem 0.3rem rgba(0,0,0,0.6);
+    padding-bottom: 3rem;
+}
+
+.banner-somos p{
+    font-family: var(--font3);
+    font-size: 1.1rem;
+    font-weight: 580;
+    padding-bottom: 2rem;
+}
+
+.social {
+    position: absolute;
+    bottom: 2rem;
+    width:  30%;
+    display: flex;
+    justify-content: space-evenly;
+    right: 2rem;
+    
+}
+.social i {
+    color: #eee;
+    background-color: #F08;
+    height:  2.5rem;
+    width: 2.5rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
