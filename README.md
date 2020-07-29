@@ -1,6 +1,9 @@
 # Designer-DD
 Portifolio aula de design
 
-Bebas Beue font 1
-lexend zetta font 2
-mulish font 3
+## Detalhes
+Fontes utilizadas:
+
+Bebas Neue font 1
+Lexend Zetta font 2
+Mulish font 3

@@ -179,13 +179,27 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 
 }
 
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    
+}
 .footer-content p{
     font-family: var(--font3);
     color: #a7a7a7;
     font-size: 1.1rem;
+}
+.footer-content a{
+    position: relative;
+    text-decoration: none;
+    color: #a7a7a7;
+    font-family: var(--font3);
+    font-size: 1.1rem;
+    left: 4rem;
 }
 
 /*estilo da pagina 2*/
